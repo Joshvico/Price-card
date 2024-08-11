@@ -1,7 +1,13 @@
 html {
-    background-color: rgb(236, 236, 236);
+    /* CSS variables */
+
+    --color-grey-100: rgb(236, 236, 236); /* name of the varaibale */
+   
+    background-color: var(--color-grey-100); /* refering to our declared avirable */
     font-family: 'Krub', sans-serif;
     font-weight: 400;
+
+   
   }
   
   .card-container {
